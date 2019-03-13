@@ -10,30 +10,27 @@ namespace CSLibraries.Structures
     {
         private T[] content;
 
+        private int capacity;
         /// <summary>
         /// Get of set list's data capacity that structure can hold without resizing.
         /// </summary>
-        /// TODO: Coder la fonction
         /// TODO: Coder la suite de tests
         public int Capacity
         {
-            get => default(int);
+            get => capacity;
             set
             {
-            }
-        }
-
-
-        /// <summary>
-        /// Get number of elements contains in List.
-        /// </summary>
-        /// TODO: Coder la fonction
-        /// TODO: Coder la suite de tests
-        public int Count
-        {
-            get => default(int);
-            set
-            {
+                int iterator;
+                T[] newContent = new T[value];
+                if (value > capacity) iterator = capacity - 1;
+                else iterator = value - 1;
+                while(iterator > -1)
+                {
+                    newContent[iterator] = content[iterator];
+                    iterator--;
+                }
+                content = newContent;
+                capacity = value;
             }
         }
 
@@ -46,10 +43,8 @@ namespace CSLibraries.Structures
         /// TODO: Coder la suite de tests
         public T this[int index]
         {
-            get => default(T);
-            set
-            {
-            }
+            get => content[index];
+            set => content[index] = value;
         }
 
         /// <summary>
@@ -81,6 +76,19 @@ namespace CSLibraries.Structures
         public bool Contains(T item)
         {
             throw new System.NotImplementedException();
+        }
+
+        /// <summary>
+        /// Get number of elements contains in List.
+        /// </summary>
+        /// TODO: Coder la suite de tests
+        public int GetCount()
+        {
+            int count = 0;
+            foreach (T element in content)
+                count++;
+            return count;
+
         }
 
         /// <summary>
@@ -126,7 +134,7 @@ namespace CSLibraries.Structures
         /// TODO: Coder la suite de tests
         public List(int capacity)
         {
-            content = new T[size];
+            content = new T[capacity];
             throw new System.NotImplementedException();
         }
 
@@ -155,9 +163,26 @@ namespace CSLibraries.Structures
         /// <summary>
         /// Reverse order of the elements in list.
         /// </summary>
+        /// TODO: Coder la fonction
+        /// TODO: Coder la suite de tests
         public void Reverse()
         {
             throw new System.NotImplementedException();
+        }
+
+        /// <summary>
+        /// Give a string that symbolize the List.
+        /// </summary>
+        /// <returns>a string that symbolize the List.</returns>
+        /// TODO: Coder la suite de tests
+        public override string ToString()
+        {
+            string ret = "|";
+            for(int iterator = 0; iterator < capacity; iterator++)
+            {
+                ret += content[iterator] + "|";
+            }
+            return ret;
         }
     }
 }
