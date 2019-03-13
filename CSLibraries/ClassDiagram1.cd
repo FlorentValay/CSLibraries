@@ -5,10 +5,9 @@
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
       <Compartment Name="Properties" Collapsed="true" />
-      <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAICAAAAAAAAAAAACAAAAAQCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AEICAEAAABAAAAAAGAAABAQCAAAAAAAACAACAABQAAA=</HashCode>
       <FileName>Structures\List.cs</FileName>
     </TypeIdentifier>
   </Class>
