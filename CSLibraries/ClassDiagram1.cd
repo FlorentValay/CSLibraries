@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="CSLibraries.Structures.List&lt;T&gt;">
-    <Position X="2" Y="0.5" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Fields" Collapsed="true" />
-      <Compartment Name="Properties" Collapsed="true" />
-    </Compartments>
+    <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEICAEAAAAAAAAAECAIABAQCAAAAAAAACAACAABQAAA=</HashCode>
+      <HashCode>AEYCAEAAAAAAAAAECAIABAACAAAAAAAACAACAABQAAA=</HashCode>
       <FileName>Structures\List.cs</FileName>
     </TypeIdentifier>
   </Class>

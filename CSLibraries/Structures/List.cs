@@ -123,7 +123,7 @@ namespace CSLibraries.Structures
         public List()
         {
             content = new T[20];
-            throw new System.NotImplementedException();
+            capacity = 20;
         }
 
         /// <summary>
@@ -132,10 +132,10 @@ namespace CSLibraries.Structures
         /// <param name="capacity">Capacity of the new list</param>
         /// TODO: Coder la fonction
         /// TODO: Coder la suite de tests
-        public List(int capacity)
+        public List(int newCapacity)
         {
             content = new T[capacity];
-            throw new System.NotImplementedException();
+            capacity = newCapacity;
         }
 
         /// <summary>
