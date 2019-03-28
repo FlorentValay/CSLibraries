@@ -9,22 +9,22 @@
             Test class for CSLibrariesTest.Structures.List.ToString()
             </summary>
         </member>
-        <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_AfterClear_Test">
+        <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_AfterClear_ReturnString">
             <summary>
             This test atempt to see if ToString function will return "| |" after clearing a list.
             </summary>
         </member>
-        <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_Empty_Test">
+        <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_Empty_ReturnString">
             <summary>
             This test atempt to see if ToString function will return "| |" for empty list.
             </summary>
         </member>
-        <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_Full_Test">
+        <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_Full_ReturnString">
             <summary>
             This test atempt to see if ToString function will return the true content of a full list with mixed normal and default values.
             </summary>
         </member>
-        <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_Semifull_Test">
+        <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_Semifull_ReturnString">
             <summary>
             This test atempt to see if ToString function will return the true content of a semifull list with mixed normal and default values.
             </summary>
