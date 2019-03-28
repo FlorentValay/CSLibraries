@@ -4,7 +4,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CSLibrariesTest.Structures.List
 {
-    class IndexOfListTest
+    /// <summary>
+    /// Test class for CSLibrariesTest.Structures.List.IndexOf().
+    /// </summary>
+    [TestClass]
+    public class IndexOfListTest
     {
+        // TODO: Coder la suite de tests
     }
 }

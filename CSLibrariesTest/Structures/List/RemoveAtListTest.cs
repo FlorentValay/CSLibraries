@@ -4,7 +4,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CSLibrariesTest.Structures.List
 {
-    class RemoveAtListTest
+    public class RemoveAtListTest
     {
+        // TODO: Coder la suite de tests
     }
 }

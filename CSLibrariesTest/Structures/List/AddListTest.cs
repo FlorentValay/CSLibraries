@@ -4,9 +4,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CSLibrariesTest.Structures.List
 {
-    // TODO: Create tests
+    /// <summary>
+    /// Test class for CSLibrariesTest.Structures.List.Add().
+    /// </summary>
     [TestClass]
-    class AddListTest
+    public class AddListTest
     {
+        // TODO: Coder la suite de tests
     }
 }

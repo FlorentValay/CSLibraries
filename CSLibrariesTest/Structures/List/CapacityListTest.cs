@@ -4,7 +4,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CSLibrariesTest.Structures.List
 {
-    class CapacityListTest
+    public class CapacityListTest
     {
+        // TODO: Coder la suite de tests
     }
 }
