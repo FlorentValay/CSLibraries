@@ -8,7 +8,6 @@
         /// <summary>
         /// Get of set list's data capacity that structure can hold without resizing.
         /// </summary>
-        /// TODO: Coder la suite de tests
         public int Capacity
         {
             get => capacity;
@@ -39,7 +38,6 @@
         /// <param name="index">Index to edit.</param>
         /// <returns>Value at specified index</returns>
         /// TODO: Coder la fonction
-        /// TODO: Coder la suite de tests
         public T this[int index]
         {
             get => content[index];
@@ -50,6 +48,7 @@
         /// Add element at the end of the List.
         /// </summary>
         /// <param name="newItem">The element to add</param>
+        /// TODO: Coder la fonction
         public void Add(T newItem)
         {
             throw new System.NotImplementedException();
@@ -59,7 +58,6 @@
         /// Delete all the elements from the List.
         /// </summary>
         /// TODO: Coder la fonction
-        /// TODO: Coder la suite de tests
         public void Clear()
         {
             throw new System.NotImplementedException();
@@ -71,7 +69,6 @@
         /// <param name="item">Item to be found</param>
         /// <returns>true if the item was found, otherwise false.</returns>
         /// TODO: Coder la fonction
-        /// TODO: Coder la suite de tests
         public bool Contains(T item)
         {
             throw new System.NotImplementedException();
@@ -83,7 +80,6 @@
         /// <param name="item">item to be located</param>
         /// <returns>The index of the founded item, otherwise -1</returns>
         /// TODO: Coder la fonction
-        /// TODO: Coder la suite de tests
         public int IndexOf(T item)
         {
             throw new System.NotImplementedException();
@@ -95,7 +91,6 @@
         /// <param name="item">Element to insert</param>
         /// <param name="index">Index to put the new element</param>
         /// TODO: Coder la fonction
-        /// TODO: Coder la suite de tests
         public void Insert(T item, int index)
         {
             throw new System.NotImplementedException();
@@ -104,24 +99,22 @@
         /// <summary>
         /// Initialize a new instance of List class which is empty and got default capacity.
         /// </summary>
-        /// TODO: Coder la fonction
-        /// TODO: Coder la suite de tests
         public List()
         {
             content = new T[20];
             capacity = 20;
+            Count = 0;
         }
 
         /// <summary>
         /// Initialize a new instance of List class which is empty and got specified capacity.
         /// </summary>
         /// <param name="capacity">Capacity of the new list</param>
-        /// TODO: Coder la fonction
-        /// TODO: Coder la suite de tests
         public List(int newCapacity)
         {
             content = new T[capacity];
             capacity = newCapacity;
+            Count = 0;
         }
 
         /// <summary>
@@ -129,7 +122,6 @@
         /// </summary>
         /// <param name="item">Element to remove</param>
         /// TODO: Coder la fonction
-        /// TODO: Coder la suite de tests
         public void Remove(T item)
         {
             throw new System.NotImplementedException();
@@ -140,7 +132,6 @@
         /// </summary>
         /// <param name="index">Index of the object to remove</param>
         /// TODO: Coder la fonction
-        /// TODO: Coder la suite de tests
         public void RemoveAt(int index)
         {
             throw new System.NotImplementedException();
@@ -159,10 +150,20 @@
         /// Give a string that symbolize the List.
         /// </summary>
         /// <returns>a string that symbolize the List.</returns>
-        /// TODO: Coder la fonction
         public override string ToString()
         {
-            throw new System.NotImplementedException();
+            if (Count == 0)
+                return "| |";
+
+            string ret = "|";
+            foreach(T element in content)
+            {
+                if (element == null)
+                    ret += "  |";
+                else
+                    ret += $" {element.ToString()} |";
+            }
+            return ret;
         }
     }
 }
