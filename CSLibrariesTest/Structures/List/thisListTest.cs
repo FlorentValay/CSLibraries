@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace CSLibrariesTest.Structures.List
 {
     /// <summary>
-    /// Test class for CSLibrariesTest.Structures.List[].
+    /// Test class for CSLibrariesTest.Structures.List.this[].
     /// </summary>
     [TestClass]
     public class ThisListTest
