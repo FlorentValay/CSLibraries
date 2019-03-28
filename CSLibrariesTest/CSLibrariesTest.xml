@@ -4,6 +4,11 @@
         <name>CSLibrariesTest</name>
     </assembly>
     <members>
+        <member name="T:CSLibrariesTest.Structures.List.thisListTest">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:CSLibrariesTest.Structures.List.ToStringListTest">
             <summary>
             Test class for CSLibrariesTest.Structures.List.ToString()
@@ -12,6 +17,11 @@
         <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_AfterClear_ReturnString">
             <summary>
             This test atempt to see if ToString function will return "| |" after clearing a list.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_ComplexeObject_ReturnString">
+            <summary>
+            This test atempt to see if ToString function will return a correct string using complex type of data with 
             </summary>
         </member>
         <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_Empty_ReturnString">

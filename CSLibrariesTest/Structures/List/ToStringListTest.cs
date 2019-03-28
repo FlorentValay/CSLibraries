@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace CSLibrariesTest.Structures.List
 {
     /// <summary>
-    /// Test class for CSLibrariesTest.Structures.List.ToString()
+    /// Test class for CSLibrariesTest.Structures.List.ToString().
     /// </summary>
     [TestClass]
     public class ToStringListTest
@@ -27,7 +27,7 @@ namespace CSLibrariesTest.Structures.List
         }
 
         /// <summary>
-        /// This test atempt to see if ToString function will return a correct string using complex type of data with 
+        /// This test atempt to see if ToString function will return a correct string using complex type of data with null adresse.
         /// </summary>
         [TestMethod]
         public void ToString_ComplexeObject_ReturnString()
