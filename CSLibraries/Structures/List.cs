@@ -156,12 +156,12 @@
                 return "| |";
 
             string ret = "|";
-            foreach(T element in content)
+            for(int it = 0; it < Count; it++)
             {
-                if (element == null)
+                if (content[it] == null)
                     ret += "  |";
                 else
-                    ret += $" {element.ToString()} |";
+                    ret += $" {content[it].ToString()} |";
             }
             return ret;
         }
