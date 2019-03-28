@@ -4,14 +4,54 @@
         <name>CSLibrariesTest</name>
     </assembly>
     <members>
-        <member name="T:CSLibrariesTest.Structures.List.thisListTest">
+        <member name="T:CSLibrariesTest.Structures.List.AddListTest">
             <summary>
-            
+            Test class for CSLibrariesTest.Structures.List.Add().
+            </summary>
+        </member>
+        <member name="T:CSLibrariesTest.Structures.List.CountListTest">
+            <summary>
+            Test class for CSLibrariesTest.Structures.List.Count.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CountListTest.Count_Cleared_Return0">
+            <summary>
+            This test atempt to see if Count will return 0 for a cleared list.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CountListTest.Count_DefaultEmpty_Return0">
+            <summary>
+            This test atempt to see if Count will return 0 for an empty list with default constructor.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CountListTest.Count_ParamEmpty_Return0">
+            <summary>
+            This test atempt to see if Count will return 0 for an empty list with capacity parameter.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CountListTest.Count_SemiFullReturn5">
+            <summary>
+            This test atempt to see if Count will return 5 as the number of elements added to the list.
+            </summary>
+        </member>
+        <member name="T:CSLibrariesTest.Structures.List.ReverseListTest">
+            <summary>
+            Test class for CSLibrariesTest.Structures.List.Reverse().
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ReverseListTest.Reverse_Once_ReturnString">
+            <summary>
+            This test atempt to see if Reverse function inverse correctly the list.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ReverseListTest.Reverse_Twice_ReturnString">
+            <summary>
+            This test atempt to see if Reverse function inverse correctly the list twice.
             </summary>
         </member>
         <member name="T:CSLibrariesTest.Structures.List.ToStringListTest">
             <summary>
-            Test class for CSLibrariesTest.Structures.List.ToString()
+            Test class for CSLibrariesTest.Structures.List.ToString().
             </summary>
         </member>
         <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_AfterClear_ReturnString">
@@ -21,7 +61,7 @@
         </member>
         <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_ComplexeObject_ReturnString">
             <summary>
-            This test atempt to see if ToString function will return a correct string using complex type of data with 
+            This test atempt to see if ToString function will return a correct string using complex type of data with null adresse.
             </summary>
         </member>
         <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_Empty_ReturnString">
