@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CSLibraries.Structures
+﻿namespace CSLibraries.Structures
 {
     public class List<T>
     {
         private T[] content;
-
         private int capacity;
+
         /// <summary>
         /// Get of set list's data capacity that structure can hold without resizing.
         /// </summary>
@@ -33,6 +27,11 @@ namespace CSLibraries.Structures
                 capacity = value;
             }
         }
+
+        /// <summary>
+        /// Get count of all elements inside the list.
+        /// </summary>
+        public int Count { get; }
 
         /// <summary>
         /// Get or set element at specified index.
@@ -76,19 +75,6 @@ namespace CSLibraries.Structures
         public bool Contains(T item)
         {
             throw new System.NotImplementedException();
-        }
-
-        /// <summary>
-        /// Get number of elements contains in List.
-        /// </summary>
-        /// TODO: Coder la suite de tests
-        public int GetCount()
-        {
-            int count = 0;
-            foreach (T element in content)
-                count++;
-            return count;
-
         }
 
         /// <summary>
@@ -164,7 +150,6 @@ namespace CSLibraries.Structures
         /// Reverse order of the elements in list.
         /// </summary>
         /// TODO: Coder la fonction
-        /// TODO: Coder la suite de tests
         public void Reverse()
         {
             throw new System.NotImplementedException();
@@ -174,15 +159,10 @@ namespace CSLibraries.Structures
         /// Give a string that symbolize the List.
         /// </summary>
         /// <returns>a string that symbolize the List.</returns>
-        /// TODO: Coder la suite de tests
+        /// TODO: Coder la fonction
         public override string ToString()
         {
-            string ret = "|";
-            for(int iterator = 0; iterator < capacity; iterator++)
-            {
-                ret += content[iterator] + "|";
-            }
-            return ret;
+            throw new System.NotImplementedException();
         }
     }
 }
