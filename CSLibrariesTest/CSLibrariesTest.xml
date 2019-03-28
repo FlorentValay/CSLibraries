@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSLibrariesTest</name>
+    </assembly>
+    <members>
+        <member name="T:CSLibrariesTest.Structures.List.ToStringListTest">
+            <summary>
+            Test class for CSLibrariesTest.Structures.List.ToString()
+            </summary>
+        </member>
+    </members>
+</doc>
