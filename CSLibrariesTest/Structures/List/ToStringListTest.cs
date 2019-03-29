@@ -11,7 +11,7 @@ namespace CSLibrariesTest.Structures.List
     public class ToStringListTest
     {
         /// <summary>
-        /// This test atempt to see if ToString function will return "| |" after clearing a list.
+        /// This test attempts to see if ToString function will return "| |" after clearing a list.
         /// </summary>
         [TestMethod]
         public void ToString_AfterClear_ReturnString()
@@ -27,7 +27,7 @@ namespace CSLibrariesTest.Structures.List
         }
 
         /// <summary>
-        /// This test atempt to see if ToString function will return a correct string using complex type of data with null adresse.
+        /// This test attempts to see if ToString function will return a correct string using complex type of data with null adresse.
         /// </summary>
         [TestMethod]
         public void ToString_ComplexeObject_ReturnString()
@@ -42,7 +42,7 @@ namespace CSLibrariesTest.Structures.List
         }
 
         /// <summary>
-        /// This test atempt to see if ToString function will return "| |" for empty list.
+        /// This test attempts to see if ToString function will return "| |" for empty list.
         /// </summary>
         [TestMethod]
         public void ToString_Empty_ReturnString()
@@ -53,7 +53,7 @@ namespace CSLibrariesTest.Structures.List
         }
 
         /// <summary>
-        /// This test atempt to see if ToString function will return the true content of a full list with mixed normal and default values.
+        /// This test attempts to see if ToString function will return the true content of a full list with mixed normal and default values.
         /// </summary>
         [TestMethod]
         public void ToString_Full_ReturnString()
@@ -68,7 +68,7 @@ namespace CSLibrariesTest.Structures.List
         }
 
         /// <summary>
-        /// This test atempt to see if ToString function will return the true content of a semifull list with mixed normal and default values.
+        /// This test attempts to see if ToString function will return the true content of a semifull list with mixed normal and default values.
         /// </summary>
         [TestMethod]
         public void ToString_Semifull_ReturnString()

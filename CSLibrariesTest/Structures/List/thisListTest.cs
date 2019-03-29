@@ -10,7 +10,7 @@ namespace CSLibrariesTest.Structures.List
     public class ThisListTest
     {
         /// <summary>
-        /// This test atempt to see if an index return a corect value.
+        /// This test attempts to see if an index return a corect value.
         /// </summary>
         /// <param name="index">Index of the tested index.</param>
         /// <param name="expected">Result expected for the index.</param>
@@ -34,7 +34,7 @@ namespace CSLibrariesTest.Structures.List
         }
 
         /// <summary>
-        /// This test atempt to see if an over capacity index throws an exception of type System.IndexOutOfRangeException.
+        /// This test attempts to see if an over capacity index throws an exception of type System.IndexOutOfRangeException.
         /// </summary>
         [TestMethod]
         public void This_OutOfCapacityRange_ThrowException()
@@ -45,7 +45,7 @@ namespace CSLibrariesTest.Structures.List
         }
 
         /// <summary>
-        /// This test atempt to see if an unset index throws an exception of type System.IndexOutOfRangeException.
+        /// This test attempts to see if an unset index throws an exception of type System.IndexOutOfRangeException.
         /// </summary>
         [TestMethod]
         public void This_OutOfContainRange_ThrowException()
@@ -56,7 +56,7 @@ namespace CSLibrariesTest.Structures.List
         }
 
         /// <summary>
-        /// This test atempt to see if a negative index throws an exception of type System.IndexOutOfRangeException.
+        /// This test attempts to see if a negative index throws an exception of type System.IndexOutOfRangeException.
         /// </summary>
         [TestMethod]
         public void This_OutOfMinRange_ThrowException()
