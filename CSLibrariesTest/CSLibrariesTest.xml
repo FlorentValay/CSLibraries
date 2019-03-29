@@ -9,6 +9,61 @@
             Test class for CSLibrariesTest.Structures.List.Add().
             </summary>
         </member>
+        <member name="T:CSLibrariesTest.Structures.List.CapacityListTest">
+            <summary>
+            Test class for List.Capacity
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CapacityListTest.Capacity_DefaultConstructor_Return20">
+            <summary>
+            This test attemps to see if default capacity is 20 for a list.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CapacityListTest.Capacity_ParamConstructor_Return2">
+            <summary>
+            This test attemps to see if capacity is equals to the one given.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CapacityListTest.Capacity_AfterAdding_Return20">
+            <summary>
+            This test attemps to see if capacity does not change after adding into a list.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CapacityListTest.Capacity_AfterClearing_Return20">
+            <summary>
+            This test attemps to see if capacity does not change after clearing a list.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CapacityListTest.Capacity_SetSmaller_ReturnString">
+            <summary>
+            This test attemps to see if capacity changed to smaller keep only the firsts values.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CapacityListTest.Capacity_SetLarger_ReturnString">
+            <summary>
+            This test attemps to see if capacity changed to larger keep all the sets values.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CapacityListTest.Capacity_SetSmaller_ReturnCapacity">
+            <summary>
+            This test attemps to see if capacity changed to smaller return the new capacity.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CapacityListTest.Capacity_SetLarger_ReturnCapacity">
+            <summary>
+            This test attemps to see if capacity changed to larger return the new capacity.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CapacityListTest.Capacity_SetSmaller_ReturnCount">
+            <summary>
+            This test attemps to see if capacity changed to smaller return the new count.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.CapacityListTest.Capacity_SetLarger_ReturnCount">
+            <summary>
+            This test attemps to see if capacity changed to larger return the new count.
+            </summary>
+        </member>
         <member name="T:CSLibrariesTest.Structures.List.ClearListTest">
             <summary>
             This test class is used to test List.Clear
