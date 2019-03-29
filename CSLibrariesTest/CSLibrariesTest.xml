@@ -9,6 +9,21 @@
             Test class for CSLibrariesTest.Structures.List.Add().
             </summary>
         </member>
+        <member name="T:CSLibrariesTest.Structures.List.ClearListTest">
+            <summary>
+            This test class is used to test List.Clear
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ClearListTest.Clear_TestCapacity_Return20">
+            <summary>
+            This test method attempts to see if clearing a list will not change capacity.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ClearListTest.Clear_TestCount_Return0">
+            <summary>
+            This test method attempts to see if clearing a list will change count to 0.
+            </summary>
+        </member>
         <member name="T:CSLibrariesTest.Structures.List.CountListTest">
             <summary>
             Test class for CSLibrariesTest.Structures.List.Count.
@@ -16,22 +31,52 @@
         </member>
         <member name="M:CSLibrariesTest.Structures.List.CountListTest.Count_Cleared_Return0">
             <summary>
-            This test atempt to see if Count will return 0 for a cleared list.
+            This test attempts to see if Count will return 0 for a cleared list.
             </summary>
         </member>
         <member name="M:CSLibrariesTest.Structures.List.CountListTest.Count_DefaultEmpty_Return0">
             <summary>
-            This test atempt to see if Count will return 0 for an empty list with default constructor.
+            This test attempts to see if Count will return 0 for an empty list with default constructor.
             </summary>
         </member>
         <member name="M:CSLibrariesTest.Structures.List.CountListTest.Count_ParamEmpty_Return0">
             <summary>
-            This test atempt to see if Count will return 0 for an empty list with capacity parameter.
+            This test attempts to see if Count will return 0 for an empty list with capacity parameter.
             </summary>
         </member>
         <member name="M:CSLibrariesTest.Structures.List.CountListTest.Count_SemiFullReturn5">
             <summary>
-            This test atempt to see if Count will return 5 as the number of elements added to the list.
+            This test attempts to see if Count will return 5 as the number of elements added to the list.
+            </summary>
+        </member>
+        <member name="T:CSLibrariesTest.Structures.List.IndexOfListTest">
+            <summary>
+            Test class for CSLibrariesTest.Structures.List.IndexOf().
+            </summary>
+        </member>
+        <member name="T:CSLibrariesTest.Structures.List.ListListTest">
+            <summary>
+            Class test for List.List()
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ListListTest.ListDefault_TestCapacity_Return20">
+            <summary>
+            This test attempts to see if default constructor give a capacity 20
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ListListTest.ListDefault_TestCount_Return0">
+            <summary>
+            This test attempts to see if default constructor contains 0 element
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ListListTest.ListParam_TestCapacity_Return2">
+            <summary>
+            This test attempts to see if constructor with parameter give the choosen capacity 
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ListListTest.ListParam_TestCount_Return0">
+            <summary>
+            This test attempts to see if constructor with parameter contains 0 element
             </summary>
         </member>
         <member name="T:CSLibrariesTest.Structures.List.ReverseListTest">
@@ -49,6 +94,33 @@
             This test atempt to see if Reverse function inverse correctly the list twice.
             </summary>
         </member>
+        <member name="T:CSLibrariesTest.Structures.List.ThisListTest">
+            <summary>
+            Test class for CSLibrariesTest.Structures.List.this[].
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ThisListTest.This_Index_ReturnGoodValue(System.Int32,System.Int32)">
+            <summary>
+            This test attempts to see if an index return a corect value.
+            </summary>
+            <param name="index">Index of the tested index.</param>
+            <param name="expected">Result expected for the index.</param>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ThisListTest.This_OutOfCapacityRange_ThrowException">
+            <summary>
+            This test attempts to see if an over capacity index throws an exception of type System.IndexOutOfRangeException.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ThisListTest.This_OutOfContainRange_ThrowException">
+            <summary>
+            This test attempts to see if an unset index throws an exception of type System.IndexOutOfRangeException.
+            </summary>
+        </member>
+        <member name="M:CSLibrariesTest.Structures.List.ThisListTest.This_OutOfMinRange_ThrowException">
+            <summary>
+            This test attempts to see if a negative index throws an exception of type System.IndexOutOfRangeException.
+            </summary>
+        </member>
         <member name="T:CSLibrariesTest.Structures.List.ToStringListTest">
             <summary>
             Test class for CSLibrariesTest.Structures.List.ToString().
@@ -56,27 +128,27 @@
         </member>
         <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_AfterClear_ReturnString">
             <summary>
-            This test atempt to see if ToString function will return "| |" after clearing a list.
+            This test attempts to see if ToString function will return "| |" after clearing a list.
             </summary>
         </member>
         <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_ComplexeObject_ReturnString">
             <summary>
-            This test atempt to see if ToString function will return a correct string using complex type of data with null adresse.
+            This test attempts to see if ToString function will return a correct string using complex type of data with null adresse.
             </summary>
         </member>
         <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_Empty_ReturnString">
             <summary>
-            This test atempt to see if ToString function will return "| |" for empty list.
+            This test attempts to see if ToString function will return "| |" for empty list.
             </summary>
         </member>
         <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_Full_ReturnString">
             <summary>
-            This test atempt to see if ToString function will return the true content of a full list with mixed normal and default values.
+            This test attempts to see if ToString function will return the true content of a full list with mixed normal and default values.
             </summary>
         </member>
         <member name="M:CSLibrariesTest.Structures.List.ToStringListTest.ToString_Semifull_ReturnString">
             <summary>
-            This test atempt to see if ToString function will return the true content of a semifull list with mixed normal and default values.
+            This test attempts to see if ToString function will return the true content of a semifull list with mixed normal and default values.
             </summary>
         </member>
     </members>
