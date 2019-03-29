@@ -10,7 +10,7 @@ namespace CSLibrariesTest.Structures.List
     public class CountListTest
     {
         /// <summary>
-        /// This test atempt to see if Count will return 0 for a cleared list.
+        /// This test attempts to see if Count will return 0 for a cleared list.
         /// </summary>
         [TestMethod]
         public void Count_Cleared_Return0()
@@ -24,7 +24,7 @@ namespace CSLibrariesTest.Structures.List
         }
 
         /// <summary>
-        /// This test atempt to see if Count will return 0 for an empty list with default constructor.
+        /// This test attempts to see if Count will return 0 for an empty list with default constructor.
         /// </summary>
         [TestMethod]
         public void Count_DefaultEmpty_Return0()
@@ -35,7 +35,7 @@ namespace CSLibrariesTest.Structures.List
         }
 
         /// <summary>
-        /// This test atempt to see if Count will return 0 for an empty list with capacity parameter.
+        /// This test attempts to see if Count will return 0 for an empty list with capacity parameter.
         /// </summary>
         [TestMethod]
         public void Count_ParamEmpty_Return0()
@@ -46,7 +46,7 @@ namespace CSLibrariesTest.Structures.List
         }
 
         /// <summary>
-        /// This test atempt to see if Count will return 5 as the number of elements added to the list.
+        /// This test attempts to see if Count will return 5 as the number of elements added to the list.
         /// </summary>
         [TestMethod]
         public void Count_SemiFullReturn5()
